@@ -7,7 +7,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
      *
      * @var string
      */
-    protected $baseUrl = 'http://final-project-neag.herokuapp.com/';
+    protected $baseUrl = 'http://final-project-neag.herokuapp.com';
 
     /**
      * Creates the application.
