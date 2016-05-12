@@ -1,3 +1,5 @@
+[Video demo](https://www.youtube.com/watch?v=Qc9TT_Vz1ms&feature=youtu.be)
+
 #About
 
 The site will be about posting links to articles and commenting on them, somewhat like Reddit's posts.
@@ -24,4 +26,5 @@ The tables in use are:
 *countries
 
 #Travis build status
+
 [![Build Status](https://travis-ci.org/modrymrak/itp405-final-project.svg?branch=master)](https://travis-ci.org/modrymrak/itp405-final-project)
