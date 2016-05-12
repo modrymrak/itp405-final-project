@@ -13,7 +13,7 @@ class LoginTest extends TestCase
      */
     public function testAdminLogin()
     {
-      $this->visit('/')
+      $this->visit('/login')
         ->type('admin', 'name')
         ->type('laravel', 'password')
         ->press('submitButton')

@@ -21,7 +21,7 @@ class ArticleUploadTest extends TestCase
           ->visit("/new")
           ->type('Article Upload Test', 'title')
           ->type('http://www.artTest2.com', 'url')
-          ->select("2", "country")
+          ->select("242", "country")
           ->press("submitButton")
           ->see("Article added succesfully");
         $this->visit("/admin")
