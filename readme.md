@@ -1,27 +1,27 @@
-# Laravel PHP Framework
+#About
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+The site will be about posting links to articles and commenting on them, somewhat like Reddit's posts.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+#Users
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Anyone is welcome to use the website, the main target audience being myself and some of my friends.
 
-## Official Documentation
+#Accounts
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Using Laravel's built-in authentication system, users will be required to create an account before using the service.
 
-## Contributing
+#API
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+I am using one of the Guardian APIs, to pull content links.
 
-## Security Vulnerabilities
+#Tables
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+The tables in use are:
+*users
+*password_resets
+*articles
+*comments
+*countries
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+#Travis build status
+[![Build Status](https://travis-ci.org/modrymrak/itp405-final-project.svg?branch=master)](https://travis-ci.org/modrymrak/itp405-final-project)
