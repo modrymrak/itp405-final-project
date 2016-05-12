@@ -18,7 +18,7 @@ class CommentPageTest extends TestCase
         ->type('laravel', 'password')
         ->press('submitButton')
         ->visit("/")
-        ->click("commentFor100")
+        ->click("commentFor142")
         ->see("Article comments");
     }
 }

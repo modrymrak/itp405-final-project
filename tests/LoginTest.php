@@ -22,7 +22,7 @@ class LoginTest extends TestCase
         ->click('logoutButton')
         ->seePageIs('/login');
         $this->visit('/login')
-          ->type('test', 'name')
+          ->type('Michael', 'name')
           ->type('test1234', 'password')
           ->press('submitButton')
           ->seePageIs('/');
