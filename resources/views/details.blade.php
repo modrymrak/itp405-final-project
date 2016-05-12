@@ -20,7 +20,7 @@
                 <p>  {{$article[0]->created_at}}</p>
                 <p>  {{$article[0]->name}}</p>
                 <p>   {{$article[0]->country_name}}</p>
-                <a href="$article[0]->url" target="_blank"> {{$article[0]->url}} </a>
+                <a href="{{$article[0]->url}}" target="_blank"> {{$article[0]->url}} </a>
               </div>
             </div>
     </div>
